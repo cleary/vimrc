@@ -4,9 +4,11 @@ vimrc
 Vim config and plugins
 
 ````
-sudo apt-get install vim-nox
+sudo apt-get install vim-nox ruby-dev
 git clone --recursive https://github.com/cleary/vimrc.git ~/.vim/
 ln -s ~/.vim/dot.vimrc ~/.vimrc
+cd ~/.vim/bundle/command-t/
+rake make
 ````
 
 
@@ -17,5 +19,5 @@ Command-T plugin for file management:
   - https://github.com/wincent/Command-T
   - compiled for Ubuntu 14.04 amd64
 
-Command-T is included as a git submodule, read about submodules in git here:
+Both Pathogen and Command-T are included as git submodules, read about submodules in git here:
   - http://git-scm.com/docs/git-submodule
