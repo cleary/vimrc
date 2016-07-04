@@ -2,7 +2,9 @@ vimrc
 =====
 
 Vim config and plugins
+
 ````
+sudo apt-get install vim-nox
 git clone --recursive https://github.com/cleary/vimrc.git ~/.vim/
 ln -s ~/.vim/dot.vimrc ~/.vimrc
 ````
