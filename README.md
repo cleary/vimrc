@@ -2,8 +2,11 @@ vimrc
 =====
 
 Vim config and plugins
-
+````
+git clone --recursive https://github.com/cleary/vimrc.git ~/.vim/
 ln -s ~/.vim/dot.vimrc ~/.vimrc
+````
+
 
 Pathogen for plugin management:
   - https://github.com/tpope/vim-pathogen
