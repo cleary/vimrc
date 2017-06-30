@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+" setup statusline
+" ref: https://github.com/scrooloose/vimfiles/blob/master/vimrc#L78
 set statusline =%#identifier#
 set statusline+=[%f]    "tail of the filename
 set statusline+=%*
