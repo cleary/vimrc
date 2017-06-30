@@ -4,6 +4,8 @@ filetype plugin indent on
 let mapleader=","
 set splitbelow
 set splitright
+" remap keys for easier moving between split windows
+" https://robots.thoughtbot.com/vim-splits-move-faster-and-more-naturally
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
