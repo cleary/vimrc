@@ -19,5 +19,8 @@ Command-T plugin for file management:
   - https://github.com/wincent/Command-T
   - compiled for Ubuntu 14.04 amd64
 
-Both Pathogen and Command-T are included as git submodules, read about submodules in git here:
+vim-fugitive plugin for git integration:
+  - https://github.com/tpope/vim-fugitive
+
+These plugins are included as git submodules, read about submodules in git here:
   - http://git-scm.com/docs/git-submodule

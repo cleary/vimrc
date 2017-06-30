@@ -1,2 +1,2 @@
 autoload/pathogen.vim.git/*
-bundle/command-t/*
+bundle/*
