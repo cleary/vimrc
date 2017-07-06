@@ -24,7 +24,9 @@ vim-fugitive plugin for git integration:
 
 rhubarb.vim plugin for fugitive/github integration:
   - https://github.com/tpope/vim-rhubarb
+
 =====
+
 These plugins are included as git submodules, read about submodules in git here:
   - http://git-scm.com/docs/git-submodule
 
