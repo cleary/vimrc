@@ -18,12 +18,17 @@ Pathogen for plugin management:
 Command-T plugin for file management:
   - https://github.com/wincent/Command-T
   - compiled for Ubuntu 14.04 amd64
+  - ,t to open, Ctrl-v/Ctrl-s to open file in a split, Ctrl-c to cancel
+  - add `stty -ixon` to .bashrc to disable Ctrl-s override (Ctrl-q to resume flow)
 
 vim-fugitive plugin for git integration:
   - https://github.com/tpope/vim-fugitive
 
 rhubarb.vim plugin for fugitive/github integration:
   - https://github.com/tpope/vim-rhubarb
+
+SimpylFold plugin for Python folding support
+  - https://github.com/tmhedberg/SimpylFold
 
 ---
 
