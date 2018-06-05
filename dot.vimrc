@@ -81,6 +81,14 @@ set autoindent
 set undolevels=1000
 set backspace=indent,eol,start
 
+" folding code, recommend SimpylFold for python
+"set foldmethod=marker
+"set nofoldenable
+set foldlevelstart=20
+
+" SimpylFold options
+let g:SimpylFold_docstring_preview = 1
+
 " map fold/unfold to space
 nnoremap <space> za
 vnoremap <space> zf
