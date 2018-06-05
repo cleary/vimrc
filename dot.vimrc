@@ -53,6 +53,7 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
 set pastetoggle=<F10>
 set bg=dark
 
@@ -71,11 +72,15 @@ set expandtab
 "set linebreak
 "set showbreak=+++
 set visualbell
-set hlsearch
-set smartcase
+"set hlsearch
+"set smartcase
 set ignorecase
 set incsearch
 set autoindent
-set ruler
+"set ruler
 set undolevels=1000
 set backspace=indent,eol,start
+
+" map fold/unfold to space
+nnoremap <space> za
+vnoremap <space> zf
