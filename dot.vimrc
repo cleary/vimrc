@@ -44,6 +44,7 @@ set laststatus=2
 
 syntax on
 filetype plugin indent on
+filetype plugin on
 let mapleader=","
 set splitbelow
 set splitright

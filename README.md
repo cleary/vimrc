@@ -17,7 +17,6 @@ Pathogen for plugin management:
 
 Command-T plugin for file management:
   - https://github.com/wincent/Command-T
-  - compiled for Ubuntu 14.04 amd64
   - ,t to open, Ctrl-v/Ctrl-s to open file in a split, Ctrl-c to cancel
   - add `stty -ixon` to .bashrc to disable Ctrl-s override (Ctrl-q to resume flow)
 
