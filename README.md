@@ -31,6 +31,7 @@ SimpylFold plugin for Python folding support
 
 vim-flake8 plugin for Python PEP8 syntax/style checking
   - https://github.com/nvie/vim-flake8
+  - F7 to check
 ---
 
 These plugins are included as git submodules, read about submodules in git here:
