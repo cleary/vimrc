@@ -4,7 +4,7 @@ vimrc
 Vim config and plugins
 
 ````
-sudo apt-get install vim-nox ruby-dev
+sudo apt-get install vim-nox ruby-dev flake8
 git clone --recursive https://github.com/cleary/vimrc.git ~/.vim/
 ln -s ~/.vim/dot.vimrc ~/.vimrc
 cd ~/.vim/bundle/command-t/
@@ -29,6 +29,8 @@ rhubarb.vim plugin for fugitive/github integration:
 SimpylFold plugin for Python folding support
   - https://github.com/tmhedberg/SimpylFold
 
+vim-flake8 plugin for Python PEP8 syntax/style checking
+  - https://github.com/nvie/vim-flake8
 ---
 
 These plugins are included as git submodules, read about submodules in git here:

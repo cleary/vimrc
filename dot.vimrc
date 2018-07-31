@@ -87,6 +87,9 @@ set backspace=indent,eol,start
 "set nofoldenable
 set foldlevelstart=20
 
+" pep8 syntax checking for python, with flake8
+autocmd BufWritePost *.py call Flake8()
+
 " SimpylFold options
 let g:SimpylFold_docstring_preview = 1
 
