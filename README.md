@@ -4,7 +4,13 @@ vimrc
 Vim config and plugins
 
 ````
+<<<<<<< HEAD
 sudo apt-get install vim-nox ruby-dev flake8
+||||||| merged common ancestors
+sudo apt-get install vim-nox ruby-dev
+=======
+sudo apt-get install vim-nox ruby-dev rake
+>>>>>>> c2843a7b8ca560931d6fbc68ed29a81724083342
 git clone --recursive https://github.com/cleary/vimrc.git ~/.vim/
 ln -s ~/.vim/dot.vimrc ~/.vimrc
 cd ~/.vim/bundle/command-t/
