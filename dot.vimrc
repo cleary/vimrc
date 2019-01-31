@@ -96,3 +96,8 @@ let g:SimpylFold_docstring_preview = 1
 " map fold/unfold to space
 nnoremap <space> za
 vnoremap <space> zf
+
+" remap enter to open Command-T in tab instead of split
+let g:CommandTAcceptSelectionMap = '<C-t>'
+let g:CommandTAcceptSelectionTabMap = '<CR>'
+
