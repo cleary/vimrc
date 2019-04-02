@@ -4,11 +4,15 @@ vimrc
 Vim config and plugins
 
 ````
-sudo apt-get install vim-nox ruby-dev rake flake8 build-essential
+sudo apt-get install vim-nox ruby-dev rake flake8 build-essential tmux
 git clone --recursive https://github.com/cleary/vimrc.git ~/.vim/
 ln -s ~/.vim/dot.vimrc ~/.vimrc
+# build Command-T
 cd ~/.vim/bundle/command-t/
 rake make
+# build vim-tidal
+cd ~/.vim/bundle/vim-tidal/
+sudo make install
 ````
 
 
@@ -36,6 +40,10 @@ vim-flake8 plugin for Python PEP8 syntax/style checking
 vim-match-up plugin for section highlighting, and motions
   - https://github.com/andymass/vim-matchup.git
   - % to toggle start/end tags
+
+vim-tidal plugin for TidalCycles live coding environment
+  - https://github.com/tidalcycles/vim-tidal
+  - start with `tidalvim`
 ---
 
 These plugins are included as git submodules, read about submodules in git here:
