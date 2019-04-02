@@ -19,9 +19,6 @@
 [submodule "bundle/vim-matchup"]
 	path = bundle/vim-matchup
 	url = https://github.com/andymass/vim-matchup.git
-[submodule "bundle/bundle/vim-tidal"]
-	path = bundle/bundle/vim-tidal
-	url = https://github.com/tidalcycles/vim-tidal.git
 [submodule "bundle/vim-tidal"]
 	path = bundle/vim-tidal
 	url = https://github.com/tidalcycles/vim-tidal.git
