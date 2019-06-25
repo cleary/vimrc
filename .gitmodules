@@ -19,3 +19,6 @@
 [submodule "bundle/vim-matchup"]
 	path = bundle/vim-matchup
 	url = https://github.com/andymass/vim-matchup.git
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git

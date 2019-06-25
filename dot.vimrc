@@ -101,3 +101,5 @@ vnoremap <space> zf
 let g:CommandTAcceptSelectionMap = '<C-t>'
 let g:CommandTAcceptSelectionTabMap = '<CR>'
 
+" reduce updatetime for vim-gutter plugin
+set updatetime=100

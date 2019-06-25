@@ -26,6 +26,9 @@ vim-fugitive plugin for git integration:
 rhubarb.vim plugin for fugitive/github integration:
   - https://github.com/tpope/vim-rhubarb
 
+vim-gitgutter.vim plugin to show live git diff hunks
+  - https://github.com/airblade/vim-gitgutter
+
 SimpylFold plugin for Python folding support
   - https://github.com/tmhedberg/SimpylFold
 
