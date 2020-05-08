@@ -1,4 +1,12 @@
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+Plug 'tidalcycles/vim-tidal'
+Plug 'wincent/Command-T'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'tmhedberg/SimpylFold'
+Plug 'nvie/vim-flake8'
+Plug 'andymass/vim-matchup.git'
+call plug#end()
 
 " setup statusline
 " ref: https://github.com/scrooloose/vimfiles/blob/master/vimrc#L78
