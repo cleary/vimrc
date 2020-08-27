@@ -5,7 +5,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'tmhedberg/SimpylFold'
 Plug 'nvie/vim-flake8'
-Plug 'andymass/vim-matchup.git'
+Plug 'andymass/vim-matchup'
 call plug#end()
 
 " setup statusline
