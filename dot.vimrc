@@ -1,6 +1,6 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged/')
 Plug 'tidalcycles/vim-tidal'
-Plug 'wincent/Command-T'
+Plug 'cloudhead/neovim-fuzzy'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'tmhedberg/SimpylFold'
@@ -63,6 +63,9 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" remap for neovim-fuzzy
+nnoremap <C-p> :FuzzyOpen<CR>
+
 set pastetoggle=<F10>
 set bg=dark
 
@@ -120,3 +123,5 @@ if &term =~ '^screen'
     execute "set <xRight>=\e[1;*C"
     execute "set <xLeft>=\e[1;*D"
 endif
+
+let g:tidal_target = "terminal"
