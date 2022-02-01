@@ -1,4 +1,4 @@
-call plug#begin('~/.config/nvim/plugged/')
+call plug#begin()
 Plug 'tidalcycles/vim-tidal'
 Plug 'cloudhead/neovim-fuzzy'
 Plug 'tpope/vim-fugitive'
