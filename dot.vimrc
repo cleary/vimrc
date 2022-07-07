@@ -54,7 +54,8 @@ syntax on
 filetype plugin indent on
 filetype plugin on
 let mapleader=","
-set splitbelow
+" this mucks up tidalvim prelude window loc
+" set splitbelow
 set splitright
 " remap keys for easier moving between split windows
 " https://robots.thoughtbot.com/vim-splits-move-faster-and-more-naturally
