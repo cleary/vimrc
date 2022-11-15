@@ -51,3 +51,6 @@ vim-match-up plugin for section highlighting, and motions
 
 vim-tidal plugin for TidalCycles live coding environment
   - https://github.com/tidalcycles/vim-tidal
+  
+auto-pairs plugin for auto-completing brackets/braces/quote pairs
+  - https://github.com/jiangmiao/auto-pairs
