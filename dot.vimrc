@@ -6,6 +6,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tmhedberg/SimpylFold'
 Plug 'nvie/vim-flake8'
 Plug 'andymass/vim-matchup'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 " setup statusline
