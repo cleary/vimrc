@@ -54,3 +54,6 @@ vim-tidal plugin for TidalCycles live coding environment
   
 auto-pairs plugin for auto-completing brackets/braces/quote pairs
   - https://github.com/jiangmiao/auto-pairs
+
+onedark theme by joshdick
+  - https://github.com/joshdick/onedark.vim

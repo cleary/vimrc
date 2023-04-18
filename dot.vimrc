@@ -6,6 +6,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tmhedberg/SimpylFold'
 Plug 'nvie/vim-flake8'
 Plug 'andymass/vim-matchup'
+Plug 'joshdick/onedark.vim'
 Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
@@ -70,6 +71,9 @@ nnoremap <C-p> :FuzzyOpen<CR>
 
 set pastetoggle=<F10>
 set bg=dark
+set t_Co=Nightfox
+
+set termguicolors
 
 highlight DiffAdd    cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
 highlight DiffDelete cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
@@ -125,5 +129,7 @@ if &term =~ '^screen'
     execute "set <xRight>=\e[1;*C"
     execute "set <xLeft>=\e[1;*D"
 endif
+
+source $HOME/.config/nvim/themes/onedark.vim
 
 let g:tidal_target = "terminal"
