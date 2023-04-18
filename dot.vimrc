@@ -8,6 +8,7 @@ Plug 'nvie/vim-flake8'
 Plug 'andymass/vim-matchup'
 Plug 'joshdick/onedark.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'mbbill/undotree'
 call plug#end()
 
 " setup statusline
@@ -68,6 +69,9 @@ nnoremap <C-H> <C-W><C-H>
 
 " remap for neovim-fuzzy
 nnoremap <C-p> :FuzzyOpen<CR>
+
+" remap for undotree pane toggle
+nnoremap <F5> :UndotreeToggle<CR>
 
 set pastetoggle=<F10>
 set bg=dark
