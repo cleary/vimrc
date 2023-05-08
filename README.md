@@ -55,5 +55,9 @@ vim-tidal plugin for TidalCycles live coding environment
 auto-pairs plugin for auto-completing brackets/braces/quote pairs
   - https://github.com/jiangmiao/auto-pairs
 
+undotree plugin for visualising undo history
+  - https://github.com/mbbill/undotree
+  - F5 to activate pane
+
 onedark theme by joshdick
   - https://github.com/joshdick/onedark.vim
