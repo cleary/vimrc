@@ -53,6 +53,9 @@ set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
 set laststatus=2
 
+"show relative linenumbers
+set relativenumber
+
 syntax on
 filetype plugin indent on
 filetype plugin on
