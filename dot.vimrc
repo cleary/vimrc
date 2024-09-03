@@ -137,6 +137,6 @@ if &term =~ '^screen'
     execute "set <xLeft>=\e[1;*D"
 endif
 
-source $HOME/.config/nvim/themes/onedark.vim
+source $HOME/.local/share/nvim/plugged/onedark.vim/colors/onedark.vim
 
 let g:tidal_target = "terminal"
