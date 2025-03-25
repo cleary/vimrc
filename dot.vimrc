@@ -79,7 +79,6 @@ nnoremap <C-p> :FuzzyOpen<CR>
 " remap for undotree pane toggle
 nnoremap <F5> :UndotreeToggle<CR>
 
-set pastetoggle=<F10>
 set bg=dark
 set t_Co=Nightfox
 
@@ -108,6 +107,7 @@ set autoindent
 "set ruler
 set undolevels=1000
 set backspace=indent,eol,start
+set mouse=
 
 " folding code, recommend SimpylFold for python
 "set foldmethod=marker
