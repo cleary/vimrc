@@ -9,7 +9,10 @@ Plug 'andymass/vim-matchup'
 Plug 'joshdick/onedark.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mbbill/undotree'
+Plug 'sphamba/smear-cursor.nvim'
 call plug#end()
+
+lua require('smear_cursor').enabled = true
 
 " setup statusline
 " ref: https://github.com/scrooloose/vimfiles/blob/master/vimrc#L78
