@@ -10,9 +10,12 @@ Plug 'joshdick/onedark.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mbbill/undotree'
 Plug 'sphamba/smear-cursor.nvim'
+Plug 'karb94/neoscroll.nvim'
 call plug#end()
 
 lua require('smear_cursor').enabled = true
+
+lua require('neoscroll').setup({ mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>'} })
 
 " setup statusline
 " ref: https://github.com/scrooloose/vimfiles/blob/master/vimrc#L78
