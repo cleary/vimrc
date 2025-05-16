@@ -55,6 +55,12 @@ vim-tidal plugin for TidalCycles live coding environment
 auto-pairs plugin for auto-completing brackets/braces/quote pairs
   - https://github.com/jiangmiao/auto-pairs
 
+smear cursor for easier cursor tracking on large screens 
+  - https://github.com/sphamba/smear-cursor.nvim
+
+neoscroll plugin for smooth vertical scrolling
+  - https://github.com/karb94/neoscroll.nvim
+
 undotree plugin for visualising undo history
   - https://github.com/mbbill/undotree
   - F5 to activate pane
