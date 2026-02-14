@@ -1,5 +1,6 @@
 call plug#begin()
-Plug 'tidalcycles/vim-tidal'
+"Plug 'tidalcycles/vim-tidal'
+Plug 'thgrund/tidal.nvim'
 Plug 'cloudhead/neovim-fuzzy'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
@@ -11,6 +12,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'mbbill/undotree'
 Plug 'sphamba/smear-cursor.nvim'
 Plug 'karb94/neoscroll.nvim'
+Plug 'tris203/precognition.nvim'
 call plug#end()
 
 lua require('smear_cursor').enabled = true
@@ -82,6 +84,7 @@ nnoremap <C-p> :FuzzyOpen<CR>
 " remap for undotree pane toggle
 nnoremap <F5> :UndotreeToggle<CR>
 
+" throwing error 20241115 set pastetoggle=<F10>
 set bg=dark
 set t_Co=Nightfox
 
@@ -117,6 +120,9 @@ set mouse=
 "set nofoldenable
 set foldlevelstart=20
 
+"inbuilt mouse support causes copy/paste issues in desktop, disable
+set mouse=
+
 " pep8 syntax checking for python, with flake8
 autocmd BufWritePost *.py call Flake8()
 
@@ -146,3 +152,4 @@ endif
 source $HOME/.local/share/nvim/plugged/onedark.vim/colors/onedark.vim
 
 let g:tidal_target = "terminal"
+" let g:tidal_sc_enable = 1
