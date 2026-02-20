@@ -1,6 +1,6 @@
-# OBSOLETE: Please see lazy.nvim migration repo
+**OBSOLETE: Please see lazy.nvim migration repo**
 https://codeberg.org/cleary/dot.nvim
-
+---
 neovim config
 =====
 
